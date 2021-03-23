@@ -1,35 +1,39 @@
-.overlay {
+body {
   background-color: #e0e0e0;
-  width: 497px;
+}
+
+.overlay {
+  min-width: 497px;
   height: 280px;
-  background-image: url(../images/Design741.png), linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%), linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%), url(../images/Image497.jpg);
-  background-position: 46% 55.5%, center, center, center;
+  background-image: url(../images/Fon014.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 782px) {
   .overlay {
-    width: 782px;
+    width: 100%;
     height: 440px;
-    background-image: url(../images/Design1165.png), linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%), linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%), url(../images/Image782.jpg);
+    background-image: url(../images/Fon022.jpg);
   }
 }
 
 @media screen and (min-width: 1778px) {
   .overlay {
-    width: 1778px;
+    width: 100%;
     height: 1000px;
-    background-image: url(../images/Design05.png), linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%), linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%), url(../images/Image05.jpg);
+    background-image: url(../images/Fon05.jpg);
   }
 }
 
 @media screen and (min-width: 3556px) {
   .overlay {
-    width: 3556px;
-    height: 2000px;
-    background-image: url(../images/Design.png), linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%), linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%), url(../images/Image.jpg);
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 2450px;
+    background-image: url(../images/Fon1.jpg);
   }
 }
 
@@ -245,7 +249,7 @@
 
 @media screen and (min-width: 3556px) {
   .social {
-    margin-top: 170px;
+    margin-top: 400px;
     margin-left: 250px;
   }
 }

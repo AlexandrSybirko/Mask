@@ -1,0 +1,52 @@
+.overlay {
+  background-color: #e0e0e0;
+  //   max-width: 3556px;
+  //   height: 2000px;
+  //   background-image: url(../images/Design.png),
+  //     linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%),
+  //     linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%),
+  //     url(../images/Image.jpg);
+  //   background-position: 46% 55.5%, center, center, center;
+
+  //   margin-left: auto;
+  //   margin-right: auto;
+
+  width: 497px;
+  height: 280px;
+  background-image: url(../images/Design741.png),
+    linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%),
+    linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%),
+    url(../images/Image497.jpg);
+  background-position: 46% 55.5%, center, center, center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 782px) {
+    width: 782px;
+    height: 440px;
+    background-image: url(../images/Design1165.png),
+      linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%),
+      linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%),
+      url(../images/Image782.jpg);
+  }
+
+  @media screen and (min-width: 1778px) {
+    width: 1778px;
+    height: 1000px;
+    background-image: url(../images/Design05.png),
+      linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%),
+      linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%),
+      url(../images/Image05.jpg);
+  }
+
+  @media screen and (min-width: 3556px) {
+    width: 3556px;
+    height: 2000px;
+    background-image: url(../images/Design.png),
+      linear-gradient(-266.97deg, #ded5b4 0%, rgba(222, 213, 180, 0) 33%),
+      linear-gradient(to top, #ded4b4 0%, rgba(222, 213, 180, 0) 100%),
+      url(../images/Image.jpg);
+    background-repeat: no-repeat;
+  }
+}

@@ -25,27 +25,23 @@
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.98px;
-  // margin-bottom: 8.54px;
 
   @media screen and (min-width: 782px) {
     height: 7.48px;
     font-size: 11px;
     letter-spacing: 1.54px;
-    // margin-bottom: 13.42px;
   }
 
   @media screen and (min-width: 1778px) {
     height: 17px;
     font-size: 25px;
     letter-spacing: 3.5px;
-    // margin-bottom: 30.5px;
   }
 
   @media screen and (min-width: 3556px) {
     height: 34px;
     font-size: 50px;
     letter-spacing: 7px;
-    // margin-bottom: 61px;
   }
 }
 .list {

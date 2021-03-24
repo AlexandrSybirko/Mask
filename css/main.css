@@ -222,14 +222,12 @@ body {
 
 @media screen and (min-width: 782px) {
   .social {
-    margin-top: 37.4px;
     margin-left: 55px;
   }
 }
 
 @media screen and (min-width: 1778px) {
   .social {
-    margin-top: 85px;
     margin-left: 125px;
   }
 }
@@ -313,6 +311,24 @@ body {
 }
 
 .m {
-  padding-top: 10%;
+  padding-top: 60%;
+}
+
+@media screen and (min-width: 782px) {
+  .m {
+    padding-top: 30%;
+  }
+}
+
+@media screen and (min-width: 1778px) {
+  .m {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (min-width: 3556px) {
+  .m {
+    padding-top: 10%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -30,27 +30,23 @@ body {
 
 .main-content {
   display: block;
-  padding-top: 56px;
   padding-left: 35px;
 }
 
 @media screen and (min-width: 782px) {
   .main-content {
-    padding-top: 88px;
     padding-left: 55px;
   }
 }
 
 @media screen and (min-width: 1778px) {
   .main-content {
-    padding-top: 200px;
     padding-left: 125px;
   }
 }
 
 @media screen and (min-width: 3556px) {
   .main-content {
-    padding-top: 400px;
     padding-left: 250px;
   }
 }
@@ -240,7 +236,6 @@ body {
 
 @media screen and (min-width: 3556px) {
   .social {
-    margin-top: 400px;
     margin-left: 250px;
   }
 }
@@ -315,5 +310,9 @@ body {
   .list-item:not(:last-child) {
     margin-right: 48px;
   }
+}
+
+.m {
+  padding-top: 10%;
 }
 /*# sourceMappingURL=main.css.map */

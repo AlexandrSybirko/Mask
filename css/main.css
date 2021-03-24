@@ -2,53 +2,16 @@ body {
   background-color: #e0e0e0;
   width: 100%;
   height: 100vh;
-  background-image: url(../images/Fon014.jpg);
-  background-position: center;
+  background-image: url(../images/Fon1.jpg);
+  background-position: 70% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media screen and (min-width: 782px) {
-  body {
-    background-image: url(../images/Fon022.jpg);
-  }
-}
-
-@media screen and (min-width: 1778px) {
-  body {
-    background-image: url(../images/Fon05.jpg);
-  }
-}
-
-@media screen and (min-width: 3556px) {
-  body {
-    background-image: url(../images/Fon1.jpg);
-  }
-}
-
 .main-content {
   display: block;
-  padding-left: 35px;
-}
-
-@media screen and (min-width: 782px) {
-  .main-content {
-    padding-left: 55px;
-  }
-}
-
-@media screen and (min-width: 1778px) {
-  .main-content {
-    padding-left: 125px;
-  }
-}
-
-@media screen and (min-width: 3556px) {
-  .main-content {
-    padding-left: 250px;
-  }
 }
 
 .title {
@@ -64,7 +27,6 @@ body {
   font-style: normal;
   letter-spacing: 0.82px;
   margin-top: 0;
-  margin-bottom: 4.9px;
 }
 
 @media screen and (min-width: 782px) {
@@ -73,7 +35,6 @@ body {
     height: 27px;
     font-size: 36px;
     letter-spacing: 1.28px;
-    margin-bottom: 7.7px;
   }
 }
 
@@ -83,7 +44,6 @@ body {
     height: 62px;
     font-size: 83px;
     letter-spacing: 2.92px;
-    margin-bottom: 17.5px;
   }
 }
 
@@ -93,7 +53,6 @@ body {
     height: 123px;
     font-size: 165px;
     letter-spacing: 5.83px;
-    margin-bottom: 35px;
   }
 }
 
@@ -159,7 +118,6 @@ body {
   font-weight: 300;
   text-align: left;
   letter-spacing: 0.82px;
-  margin-top: 10.92px;
   margin-bottom: 0;
 }
 
@@ -169,7 +127,6 @@ body {
     height: 51.04px;
     font-size: 9.24px;
     letter-spacing: 1.28px;
-    margin-top: 17.16px;
   }
 }
 
@@ -179,7 +136,6 @@ body {
     height: 116px;
     font-size: 21px;
     letter-spacing: 2.92px;
-    margin-top: 39px;
   }
 }
 
@@ -189,52 +145,28 @@ body {
     height: 232px;
     font-size: 42px;
     letter-spacing: 5.83px;
-    margin-top: 78px;
-  }
-}
-
-.logo {
-  margin-bottom: 15px;
-}
-
-@media screen and (min-width: 782px) {
-  .logo {
-    margin-bottom: 24px;
-  }
-}
-
-@media screen and (min-width: 1778px) {
-  .logo {
-    margin-bottom: 55px;
-  }
-}
-
-@media screen and (min-width: 3556px) {
-  .logo {
-    margin-bottom: 109px;
   }
 }
 
 .social {
   margin-top: 23.8px;
-  margin-left: 35px;
 }
 
 @media screen and (min-width: 782px) {
   .social {
-    margin-left: 55px;
+    margin-top: 37.4px;
   }
 }
 
 @media screen and (min-width: 1778px) {
   .social {
-    margin-left: 125px;
+    margin-top: 85px;
   }
 }
 
 @media screen and (min-width: 3556px) {
   .social {
-    margin-left: 250px;
+    margin-top: 400px;
   }
 }
 
@@ -249,7 +181,6 @@ body {
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.98px;
-  margin-bottom: 8.54px;
 }
 
 @media screen and (min-width: 782px) {
@@ -257,7 +188,6 @@ body {
     height: 7.48px;
     font-size: 11px;
     letter-spacing: 1.54px;
-    margin-bottom: 13.42px;
   }
 }
 
@@ -266,7 +196,6 @@ body {
     height: 17px;
     font-size: 25px;
     letter-spacing: 3.5px;
-    margin-bottom: 30.5px;
   }
 }
 
@@ -275,7 +204,6 @@ body {
     height: 34px;
     font-size: 50px;
     letter-spacing: 7px;
-    margin-bottom: 61px;
   }
 }
 
@@ -311,24 +239,25 @@ body {
 }
 
 .m {
-  padding-top: 60%;
+  padding-top: 400px;
+  margin-left: 35px;
 }
 
 @media screen and (min-width: 782px) {
   .m {
-    padding-top: 30%;
+    margin-left: 55px;
   }
 }
 
 @media screen and (min-width: 1778px) {
   .m {
-    padding-top: 20%;
+    margin-left: 125px;
   }
 }
 
 @media screen and (min-width: 3556px) {
   .m {
-    padding-top: 10%;
+    margin-left: 250px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,47 +2,27 @@ body {
   background-color: #e0e0e0;
   width: 100%;
   height: 100vh;
-  background-image: url(../images/Fon014.jpg);
-  background-position: center;
+  background-image: url(../images/Fon1.jpg);
+  background-position: 70% 50%;
   background-size: cover;
 
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 782px) {
-    background-image: url(../images/Fon022.jpg);
-  }
+  // @media screen and (min-width: 782px) {
+  //   background-image: url(../images/Fon022.jpg);
+  // }
 
-  @media screen and (min-width: 1778px) {
-    background-image: url(../images/Fon05.jpg);
-  }
+  // @media screen and (min-width: 1778px) {
+  //   background-image: url(../images/Fon05.jpg);
+  // }
 
-  @media screen and (min-width: 3556px) {
-    background-image: url(../images/Fon1.jpg);
-  }
+  // @media screen and (min-width: 3556px) {
+  //   background-image: url(../images/Fon1.jpg);
+  // }
 }
 
 // .overlay {
-//   width: 100wh;
-//   height: 100vh;
-//   background-image: url(../images/Fon014.jpg);
-//   background-position: center;
-//   background-size: cover;
-
-//   background-repeat: no-repeat;
-//   margin-left: auto;
-//   margin-right: auto;
-
-//   @media screen and (min-width: 782px) {
-//     background-image: url(../images/Fon022.jpg);
-//   }
-
-//   @media screen and (min-width: 1778px) {
-//     background-image: url(../images/Fon05.jpg);
-//   }
-
-//   @media screen and (min-width: 3556px) {
-//     background-image: url(../images/Fon1.jpg);
-//   }
+//   padding-left: 40%;
 // }

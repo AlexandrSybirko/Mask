@@ -1,16 +1,19 @@
 .m {
-  padding-top: 60%;
-  //   padding-left: 10%;
+  padding-top: 400px;
+  margin-left: 35px;
 
   @media screen and (min-width: 782px) {
-    padding-top: 30%;
+    // padding-top: 88px;
+    margin-left: 55px;
   }
 
   @media screen and (min-width: 1778px) {
-    padding-top: 20%;
+    // padding-top: 200px;
+    margin-left: 125px;
   }
 
   @media screen and (min-width: 3556px) {
-    padding-top: 10%;
+    // padding-top: 400px;
+    margin-left: 250px;
   }
 }

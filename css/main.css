@@ -21,7 +21,9 @@ body {
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: 0.82px;
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 782px) {
@@ -41,6 +43,7 @@ body {
     height: 62px;
     font-size: 83px;
     letter-spacing: 2.92px;
+    text-align: left;
   }
 }
 
@@ -60,15 +63,15 @@ body {
   text-shadow: 5.18px 1.68px 0 #1e1b1b;
   color: #563a29;
   font-family: 'Roboto';
-  font-size: 50.26px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 40.84px;
-  text-align: left;
   text-transform: uppercase;
   letter-spacing: 6.24px;
+  text-align: left;
   -webkit-text-stroke-width: 0.84px;
   -webkit-text-stroke-color: #ffffff;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -114,7 +117,7 @@ body {
   height: 32.48px;
   color: #1e1b1b;
   font-family: 'Secular+One';
-  font-size: 5.88px;
+  font-size: 7px;
   font-weight: 300;
   text-align: left;
   letter-spacing: 0.82px;
@@ -242,20 +245,42 @@ body {
 }
 
 .section {
-  padding-top: 160px;
-  padding-left: 25px;
+  min-width: 360px;
+  padding-top: 280px;
+  padding-left: 60px;
 }
 
-@media screen and (min-width: 782px) {
+@media screen and (min-width: 400px) {
   .section {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 55px;
   }
 }
 
-@media screen and (min-width: 1778px) {
+@media screen and (min-width: 768px) {
   .section {
-    padding-top: 100px;
+    padding-top: 450px;
+    padding-left: 55px;
+  }
+}
+
+@media screen and (min-width: 812px) {
+  .section {
+    padding-top: 60px;
+    padding-left: 55px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .section {
+    padding-top: 200px;
+    padding-left: 125px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 350px;
     padding-left: 125px;
   }
 }
